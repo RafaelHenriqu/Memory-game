@@ -11,7 +11,7 @@
 `` As ordem é aliatoria, a cada vez que vc aperta o botão reset a ordem muda, para quando vc errar o jogo não resetar tudo e ficar 100X mais dificil o jogo ao iniciar salva a ordem no localstorage ``
 
 **Como Ganhar?**
-```Para Ganhar você deve achar todas As Imagens apenas isso``
+``Para Ganhar você deve achar todas As Imagens apenas isso``
 
 **Imagens**
 ``As Imagens Que tem no jogo atualmente foi todas pega do google, porem futuramente petendo mudar para evitar problemas.``
