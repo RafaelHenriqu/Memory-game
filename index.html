@@ -3,124 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CardMemorty</title>
-    <script>
- 
-        // 27 Cartas
-        Tentativa = 2
-        Acertou=0        
-        if (localStorage.Save){
-           
-            CardNames=JSON.parse(localStorage.getItem('Save'))
-        }else{
-            Save = ["Noite","Levi","Kirito","juju","Dia","BelaDama","Sword","Lua","Gojo","LUFFY","bike","Neve","Sexy","Noite","Levi","Kirito","juju","Dia","BelaDama","Sword","Lua","Gojo","LUFFY","bike","Neve","Sexy"].sort(()=>Math.random()- 0.5)
-            localStorage.setItem('Save',JSON.stringify(Save))
-            location.reload()
-        }
-
-
-
-
-
-
-        
-
-
-
-
-
-
-        ElementSelect=[]
-        function Main(){
-            for(i=0;i<26;i++){
-                let Divs = document.createElement('div')
-            Divs.style.backgroundColor="#191920"
-            Divs.style.width='25vh'
-            Divs.style.height='25vh'
-            Divs.style.borderRadius='6px'
-            Divs.style.border='20px'
-            Divs.style.margin='1vh'
-            Divs.style.display='inline-block'
-            Divs.style.backgroundImage=`url()`
-            Divs.style.backgroundSize='cover'
-            Divs.style.backgroundPosition='center'
-            Divs.id=i
-            Divs.onclick=(e=>{
-                
-                Divs.style.backgroundImage=`url(./Image/${CardNames[Divs.id]}.jpg)`
-                if (ElementSelect.includes(CardNames[Divs.id])){
-                    Acertou++
-                    Tentativa=3
-                }
-
-                if (Acertou>=13){
-                    alert("GG!!")
-                }
-
-
-
-
-                ElementSelect.push(CardNames[Divs.id])
-                Tentativa--
-                if (Tentativa==0){ // Caso O Jogador Erre 3 Vez o Jogo Reseta
-                    location.reload()
-                }
-               
-            })
-            
-            document.getElementById('main').appendChild(Divs)
-            }
-        }
-
-    </script>
+    <title>Memory Game</title>
+    <script src="Main.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body onload="Start()">
 
-<style>
-    *{
-        border: 0px;
-        margin: 0px;
-        padding: 0px;
-        
-    }
-
-    body{
-        background-color: #e8dede;
-    }
-
-    ::-webkit-scrollbar{
-        border-radius: 5px 0px 0px 5px;
-        width: .5vh;
-        background-color: #ff3700;
-        
-    }
-
-    main{
-        position: absolute;
-        width: 90%;
-        height: 90vh;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        text-align: center;
-    }
-    footer{
-        width: 50%;
-        border-radius: 5px;
-        margin: auto;
-        background-color: #ff3700;
-        text-align: center;
-        color: white;
-        
-    }
- 
-</style>
-<body onload="Main()" >
     
-    <main id="main">
+    <main>
 
-        <footer onclick="(localStorage.Save='',location.reload())"><h1>Reset</h1></footer>
+        <section id="Game_Contect">
+            
+            <div id="content_text">
+                <h1>Memory Game</h1>
+                <h2 id="Life">💖💖💖</h2>
+                <hr>
+            </div>
+
+            <div id="Cards"></div>
+
+        </section>
+
+
+        
+
     </main>
-
-
 </body>
 </html>

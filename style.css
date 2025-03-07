@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  transition: 500ms;
+  z-index: -1;
+}
+
+body {
+  background-color: #191920;
+}
+
+#Game_Contect {
+  background-color: #222222;
+  width: 90%;
+  height: 90vh;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content_text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  font-family: cursive;
+}
+#content_text > h1 {
+  background-image: linear-gradient(to left, #d2dcee, #3a79ec);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#content_text > h2 {
+  background-image: linear-gradient(to left, #f51e1e, #801080);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#content_text > h2:hover {
+  background-image: linear-gradient(to left, #f51e1e, #cc1bcc);
+}
+#content_text hr {
+  background-color: white;
+  width: 50vh;
+  height: 0.5vh;
+  border-radius: 5px;
+  margin-top: 1vh;
+}
+
+#Cards {
+  position: relative;
+  top: 12%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.Card {
+  background-color: rgb(1, 2, 14);
+  width: 20vh;
+  height: 25vh;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid rgb(10, 125, 202);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  filter: opacity(0.3) contrast(1.5);
+}
+
+@media screen and (max-width: 1500px) {
+  #Game_Contect {
+    background-color: #191920;
+  }
+}
+@media screen and (max-width: 500px) {
+  #content_text > hr {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  #content_text {
+    top: -5%;
+  }
+}
+@media screen and (max-height: 700px) {
+  #content_text {
+    top: -5%;
+  }
+}/*# sourceMappingURL=style.css.map */

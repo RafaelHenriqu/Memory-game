@@ -1,25 +1,38 @@
 # Card-Memory
 
-Um jogo clássico, também conhecido como jogo da memória.
+Bem-vindo ao **Card-Memory**, um divertido jogo de memória online onde você pode testar suas habilidades de reconhecimento enquanto se diverte com adoráveis imagens de gatos! Este projeto foi desenvolvido para proporcionar uma experiência agradável tanto em dispositivos móveis quanto em computadores.
 
-## Objetivo
+## Atualizações Recentes
 
-O objetivo do jogo é encontrar todas as cartas em pares, memorizar as posições e revelar as cartas correspondentes.
+Recentemente, fizemos uma atualização significativa no jogo, que inclui:
 
-## Como Jogar?
+- **Melhoria na Interface**: A nova interface é mais amigável e intuitiva, facilitando a navegação e a jogabilidade.
+- **Aprimoramento das Mecânicas**: As regras do jogo foram refinadas para oferecer uma experiência mais envolvente e desafiadora.
+- **Correção de Bugs**: Todos os bugs antigos foram resolvidos, garantindo uma jogabilidade suave e sem interrupções.
 
-Para jogar, siga os passos abaixo:
+### Novidade: Sistema de Vida
 
-1. Selecione uma carta/div/caixa na tela. Ao fazer isso, você verá uma imagem oculta.
-2. Seu próximo objetivo é encontrar a carta correspondente.
-3. Se você escolher uma carta errada, não se preocupe! O jogo não resetará completamente, mas a seleção atual será anulada. As cartas permanecerão na mesma ordem, a menos que você decida reiniciar o jogo.
+Uma das principais adições à atualização é o novo **sistema de vida**. Agora, se você perder todas as suas vidas, o jogo termina e não é possível reiniciar, a menos que você utilize formas especiais para resetar sua quantidade de vidas. Isso traz um novo nível de desafio e estratégia ao jogo!
 
-### Ordem das Imagens
-- A ordem das imagens é aleatória. Cada vez que você clica no botão "Reset", a ordem muda. Assim, ao errar, a sequência não muda e o jogo permanece desafiador, permitindo que você memorize a localização das cartas.
-- O estado do jogo, incluindo a ordem das imagens, é salvo no `localStorage`, garantindo que você possa continuar a partir de onde parou.
+## Detalhes do Jogo
 
-## Como Ganhar?
+- **Tema**: O jogo atualmente apresenta 10 imagens adoráveis de gatos, que são a base para os pares que você precisa encontrar.
+- **Adaptabilidade**: O Card-Memory foi projetado para ser jogado em qualquer dispositivo, seja no seu celular ou em um computador, garantindo uma experiência divertida em qualquer lugar.
 
-Para vencer, você deve encontrar todos os pares de imagens. O primeiro a revelar todos os pares será o vencedor!
+## Objetivo do Jogo
 
-Divirta-se jogando e treine sua memória!
+O objetivo é simples: encontre todos os pares de cartas antes que suas vidas acabem!
+
+
+## Como Contribuir
+
+Se você deseja contribuir para o desenvolvimento do Card-Memory, sinta-se à vontade para abrir um issue ou enviar um pull request. Sua ajuda é sempre bem-vinda!
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Agradecimentos
+
+Obrigado por jogar Card-Memory! Esperamos que você se divirta jogando e descubra todos os segredos que o jogo tem a oferecer. Boa sorte!
+
