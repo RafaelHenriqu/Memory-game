@@ -1,6 +1,6 @@
-# Card-Memory
+# Memory game
 
-Bem-vindo ao **Card-Memory**, um divertido jogo de memória online onde você pode testar suas habilidades de reconhecimento enquanto se diverte com adoráveis imagens de gatos! Este projeto foi desenvolvido para proporcionar uma experiência agradável tanto em dispositivos móveis quanto em computadores.
+Bem-vindo ao **Memory game**, um divertido jogo de memória online onde você pode testar suas habilidades de reconhecimento enquanto se diverte com adoráveis imagens de gatos! Este projeto foi desenvolvido para proporcionar uma experiência agradável tanto em dispositivos móveis quanto em computadores.
 
 ## Atualizações Recentes
 
@@ -17,7 +17,7 @@ Uma das principais adições à atualização é o novo **sistema de vida**. Ago
 ## Detalhes do Jogo
 
 - **Tema**: O jogo atualmente apresenta 10 imagens adoráveis de gatos, que são a base para os pares que você precisa encontrar.
-- **Adaptabilidade**: O Card-Memory foi projetado para ser jogado em qualquer dispositivo, seja no seu celular ou em um computador, garantindo uma experiência divertida em qualquer lugar.
+- **Adaptabilidade**: O Memory game foi projetado para ser jogado em qualquer dispositivo, seja no seu celular ou em um computador, garantindo uma experiência divertida em qualquer lugar.
 
 ## Objetivo do Jogo
 
@@ -26,7 +26,7 @@ O objetivo é simples: encontre todos os pares de cartas antes que suas vidas ac
 
 ## Como Contribuir
 
-Se você deseja contribuir para o desenvolvimento do Card-Memory, sinta-se à vontade para abrir um issue ou enviar um pull request. Sua ajuda é sempre bem-vinda!
+Se você deseja contribuir para o desenvolvimento do Memory game, sinta-se à vontade para abrir um issue ou enviar um pull request. Sua ajuda é sempre bem-vinda!
 
 ## Licença
 
@@ -34,5 +34,5 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Agradecimentos
 
-Obrigado por jogar Card-Memory! Esperamos que você se divirta jogando e descubra todos os segredos que o jogo tem a oferecer. Boa sorte!
+Obrigado por jogar Memory game! Esperamos que você se divirta jogando e descubra todos os segredos que o jogo tem a oferecer. Boa sorte!
 
